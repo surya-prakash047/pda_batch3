@@ -17,6 +17,7 @@
   "homepage": "https://github.com/surya-prakash047/pda_batch3#readme",
   "description": "",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.2.1"
   }
 }
