@@ -34,7 +34,7 @@ const hostels = [
   },
 ];
 
-app.get("/hostel", (req, res) => {
+app.get("/", (req, res) => {
   if (hostels) {
     res.render("index_hostels", { hostels: hostels });
   } else {
